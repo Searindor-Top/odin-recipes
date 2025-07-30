@@ -1,0 +1,43 @@
+.indexbody{
+    width:100vw;
+    height:100vh;
+    padding:1rem;
+    background-image: url(../img/indexbackground.jpg);
+    background-size: 100vw 100vh;
+}
+
+.indexbody *{
+    font-size: 1rem;
+}
+
+.indexbody h1{
+    font-size: 2rem;
+    font-weight:bold;
+    width:100%;
+    margin-bottom:1rem;
+}
+
+.indexbody a{
+    padding:1rem;
+    text-decoration: none;
+    color:red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    display:block;
+    width:100%;
+}
+
+.indexbody img{
+    height:40px;
+    width:40px;
+}
+
+.indexbody a::before{
+    content:"• ";
+}
+
+.indexbody a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
